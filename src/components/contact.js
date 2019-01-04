@@ -11,14 +11,14 @@ class Contact extends Component {
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempore magnam neque beatae repudiandae impedit a quae quaerat maiores natus, modi alias. Neque alias eveniet dolorem modi porro, minus vero.</p>
                     </Cell>
                     <Cell col={6}>
-                        <h2>Contact Me</h2>
+                        <h2>Contactez Moi</h2>
                         <hr/>
                         <div className="contact-list">
                             <List>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fas fa-phone-square" aria-hidden="true"></i>
-                                        0617339241
+                                        <i className="fab fa-discord" aria-hidden="true"></i>
+                                        AstroLHT31#2243
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
