@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell} from 'react-mdl';
-import ReactJs from './projects/react';
 import Graphiste from './projects/graphiste';
-import Html from './projects/html';
 import Jeux from './projects/jeux';
 class Projects extends Component {
 
@@ -20,15 +18,7 @@ class Projects extends Component {
             return(
                 <Graphiste/>
             )
-        } else if (this.state.activeTab === 2){
-            return(
-                <ReactJs/>
-            )
-        }else if (this.state.activeTab === 3){
-            return(
-                <Html/>
-            )
-        }
+        } 
     }
 
 
@@ -39,8 +29,6 @@ class Projects extends Component {
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple className="category-tab">
                     <Tab>Jeux</Tab>
                     <Tab>Graphiste</Tab>
-                    <Tab>React</Tab>
-                    <Tab>HTML/CSS</Tab>
                 </Tabs>
                     <Grid>
                         <Cell col={12}>
