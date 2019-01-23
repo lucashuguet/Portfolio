@@ -7,7 +7,7 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Lucas Huguet</h2>
-                        <img src="https://i.ibb.co/3ydGdHV/IMG-1162.png" alt="avatar" style={{height: '300px'}} />
+                        <img src="https://res.cloudinary.com/astrolht31/image/upload/v1548264480/img/IMG_1162.png" alt="avatar" style={{height: '300px'}} />
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempore magnam neque beatae repudiandae impedit a quae quaerat maiores natus, modi alias. Neque alias eveniet dolorem modi porro, minus vero.</p>
                     </Cell>
                     <Cell col={6}>
