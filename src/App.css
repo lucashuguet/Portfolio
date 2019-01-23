@@ -56,7 +56,7 @@ body{
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 50%;
   margin: auto;
 }
@@ -69,7 +69,10 @@ body{
 
 .projects-grid {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
+
 
 .contact-body {
   margin: auto;
@@ -152,4 +155,16 @@ h1 {
     .social-links a {
       font-size: 2em;
     }
+}
+
+.category-tabs {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1070px) {
+  .projects-grid {
+    flex-wrap: wrap;
+  }
 }
