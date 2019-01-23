@@ -14,7 +14,7 @@ class Landing extends Component {
 
                             <div className="social-links">
 
-                            {/* LinkedIn */}
+                            {/* Bitbucket */}
                                 <a href="https://bitbucket.org/AstroLHT31/" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-bitbucket"  aria-hidden="true"/>
                                 </a>
@@ -22,11 +22,6 @@ class Landing extends Component {
                             {/* Github */}
                                  <a href="https://github.com/lucashuguet" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-github-square"  aria-hidden="true"/>
-                                </a>
-
-                            {/* Discord */}
-                                 <a href="https://discord.gg/6MYn5Fr" rel="noopener noreferrer" target="_blank">
-                                    <i className="fab fa-discord"  aria-hidden="true"/>
                                 </a>
 
                             {/* Skype */}
