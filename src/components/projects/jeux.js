@@ -19,7 +19,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>   
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Asteroids</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548352386/img/Sketch001.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Asteroids</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/asteroids/index.html">Jouer</Button>
                         </CardActions>
@@ -30,7 +30,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Donkey-Kong</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548352730/img/Screenshot_2019-01-24_donkey_kong.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Donkey-Kong</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/Donkey-Kong/index.html">Jouer</Button>
                         </CardActions>
@@ -41,7 +41,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Morpion</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548353362/img/Screenshot_2019-01-24_Le_jeu_du_morpion.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Morpion</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/Morpion/index.html">Jouer</Button>
                         </CardActions>
@@ -52,7 +52,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Pacman</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548353729/img/Screenshot_2019-01-24_Pacman_1.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Pacman</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/Pacman/index.html">Jouer</Button>
                         </CardActions>
@@ -63,7 +63,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Pong</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Pong</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/pong/index.html">Jouer</Button>
                         </CardActions>
@@ -74,7 +74,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Snake</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Snake</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/snake/index.html">Jouer</Button>
                         </CardActions>
@@ -85,7 +85,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Mario</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Mario</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/mario/index.html">Jouer</Button>
                         </CardActions>
