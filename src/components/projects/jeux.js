@@ -63,7 +63,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Pong</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548421172/img/Sketch002.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Pong</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/pong/index.html">Jouer</Button>
                         </CardActions>
@@ -74,7 +74,7 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Snake</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548421660/img/snake.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Snake</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/snake/index.html">Jouer</Button>
                         </CardActions>
@@ -85,9 +85,20 @@ class Jeux extends Component {
                 
                 <div style={{paddingTop: '2em'}}>
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                        <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Mario</CardTitle>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548423341/img/Screenshot_2019-01-25_Mario_1.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Mario</CardTitle>
                         <CardActions border>
                             <Button colored href="/src/mario/main.html">Jouer</Button>
+                        </CardActions>
+                    </Card>
+                </div>
+
+                {/*Carte 9*/}
+                
+                <div style={{paddingTop: '2em'}}>
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                        <CardTitle expand style={{color: '#fff', background: 'url(https://res.cloudinary.com/astrolht31/image/upload/v1548423190/img/Screenshot_2019-01-25_Casse-Brique.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Casse-Brique</CardTitle>
+                        <CardActions border>
+                            <Button colored href="/src/casse-brique/index.html">Jouer</Button>
                         </CardActions>
                     </Card>
                 </div>
