@@ -110,13 +110,13 @@
 }
 
 ::selection{
-  background-color: #16a085;
+  background-color: #3498db;
   color: black;
 }
 
 /* Firefox */
 ::-moz-selection {
-  background-color: #16a085;
+  background-color: #3498db;
   color: black;
 }
 
