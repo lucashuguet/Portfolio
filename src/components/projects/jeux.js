@@ -87,7 +87,7 @@ class Jeux extends Component {
                     <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
                         <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC', backgroundSize: 'cover'}}>Mario</CardTitle>
                         <CardActions border>
-                            <Button colored href="/src/mario/index.html">Jouer</Button>
+                            <Button colored href="/src/mario/main.html">Jouer</Button>
                         </CardActions>
                     </Card>
                 </div>
