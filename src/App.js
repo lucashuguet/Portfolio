@@ -12,7 +12,7 @@ class App extends Component {
           <Header className="header-color" title="Portfolio" scroll>
             <Navigation>
               <Link to="/aboutme">À propos de moi</Link>
-              <a href="/">Projets</a>
+              <a href="https://jeux.react-dev.tk">Projets</a>
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
@@ -20,7 +20,7 @@ class App extends Component {
             <Navigation>
               <Link to="/">Accueil</Link>
               <Link to="/aboutme">À propos de moi</Link>
-              <a href="/">Projets</a>
+              <a href="https://jeux.react-dev.tk">Projets</a>
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Drawer>
